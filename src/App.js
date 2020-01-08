@@ -46,7 +46,8 @@ class App extends React.Component {
         challenge.objective
           .toLowerCase()
           .includes(this.state.searchText.toLowerCase())
-      );
+      )
+      .sort((a, b) => a.level - b.level);
   }
 
   onSearch(e) {
