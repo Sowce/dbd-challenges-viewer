@@ -2,6 +2,7 @@ import React from "react";
 import challenges from "./challenges.json";
 import FlipMove from "react-flip-move";
 import archivesLogo from "./images/archives.png";
+import youDidIt from "./images/you-did-it.jpg";
 import "./App.css";
 
 const getLocalStorage = item => window.localStorage.getItem(item);
@@ -23,12 +24,6 @@ class App extends React.Component {
       hideCompleted = Boolean(getLocalStorage("hideCompleted"));
 
     this.state = { searchText: "", challengeState, hideCompleted };
-
-    this.onSearch = this.onSearch.bind(this);
-    this.onChallengeClick = this.onChallengeClick.bind(this);
-    this.parseLevels = this.parseLevels.bind(this);
-    this.getChallengeState = this.getChallengeState.bind(this);
-    this.onHideCompleted = this.onHideCompleted.bind(this);
   }
 
   onChallengeClick(id) {
@@ -42,6 +37,15 @@ class App extends React.Component {
       () => {
         setLocalStorage("challengeState", this.state.challengeState);
       }
+    );
+  }
+
+  isFullyCompleted() {
+    return (
+      this.state.hideCompleted &&
+      this.parseLevels(challenges.levels)
+        .map(challenge => this.getChallengeState(challenge.id))
+        .reduce((a, b) => a && b)
     );
   }
 
@@ -76,14 +80,18 @@ class App extends React.Component {
   }
 
   parseLevels(levels) {
-    let result = Object.keys(levels)
+    return Object.keys(levels)
       .map(level =>
         this.parseLevel(levels[level]).map(challenge => ({
           ...challenge,
           level
         }))
       )
-      .flat()
+      .flat();
+  }
+
+  displayLevels(levels) {
+    let result = this.parseLevels(levels)
       .filter(challenge =>
         challenge.objective
           .toLowerCase()
@@ -115,50 +123,61 @@ class App extends React.Component {
               type="checkbox"
               name="hideCompleted"
               checked={this.state.hideCompleted}
-              onChange={this.onHideCompleted}
+              onChange={this.onHideCompleted.bind(this)}
               id="hideCompleted"
             />
             <label htmlFor="hideCompleted">Hide Completed</label>
           </div>
-          <input type="text" placeholder="Search..." onChange={this.onSearch} />
+          <input
+            type="text"
+            placeholder="Search..."
+            onChange={this.onSearch.bind(this)}
+          />
         </div>
-        <FlipMove className="content">
-          {this.parseLevels(challenges.levels).map(challenge => {
-            const cardClassName = `challengeCard ${challenge.target}${
-              this.isMasterChallenge(challenge) ? " master" : ""
-            }${this.getChallengeState(challenge.id) ? " done" : ""}`;
+        {this.isFullyCompleted() && (
+          <div className="completed">
+            <img src={youDidIt} alt="" />
+          </div>
+        )}
+        {!this.isFullyCompleted() && (
+          <FlipMove className="content">
+            {this.displayLevels(challenges.levels).map(challenge => {
+              const cardClassName = `challengeCard ${challenge.target}${
+                this.isMasterChallenge(challenge) ? " master" : ""
+              }${this.getChallengeState(challenge.id) ? " done" : ""}`;
 
-            return (
-              <div
-                className={cardClassName}
-                onClick={() => this.onChallengeClick(challenge.id)}
-                key={challenge.id}
-              >
-                <div className="rewardsCol">
-                  {challenge.rewards.map(reward => (
-                    <div
-                      className="rewardRow"
-                      key={`${reward.id}-${reward.amount}`}
-                    >
-                      <img
-                        className="rewardIcon"
-                        src={`./${reward.id}.png`}
-                        alt={reward.id}
-                      />
-                      {reward.amount}
-                    </div>
-                  ))}
-                </div>
-                <div className="challengeCol">
-                  <div style={{ width: "100%" }}>
-                    Tome <b>2</b> - Level <b>{challenge.level}</b>
+              return (
+                <div
+                  className={cardClassName}
+                  onClick={() => this.onChallengeClick(challenge.id)}
+                  key={challenge.id}
+                >
+                  <div className="rewardsCol">
+                    {challenge.rewards.map(reward => (
+                      <div
+                        className="rewardRow"
+                        key={`${reward.id}-${reward.amount}`}
+                      >
+                        <img
+                          className="rewardIcon"
+                          src={`./${reward.id}.png`}
+                          alt={reward.id}
+                        />
+                        {reward.amount}
+                      </div>
+                    ))}
                   </div>
-                  <div>{this.cleanObjective(challenge.objective)}</div>
+                  <div className="challengeCol">
+                    <div style={{ width: "100%" }}>
+                      Tome <b>2</b> - Level <b>{challenge.level}</b>
+                    </div>
+                    <div>{this.cleanObjective(challenge.objective)}</div>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </FlipMove>
+              );
+            })}
+          </FlipMove>
+        )}
       </div>
     );
   }

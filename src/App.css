@@ -5,6 +5,7 @@ body {
 
 .App {
   padding-top: 3em;
+  height: calc(100vh - 3em);
 }
 
 .content {
@@ -86,7 +87,7 @@ body {
   align-items: center;
   background-color: rgb(112, 21, 22);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top: 0px;
   box-shadow: 3px 3px 10px black;
 }
@@ -106,6 +107,13 @@ body {
 .appBar .appLogo {
   height: 100%;
   margin-right: 0.5em;
+}
+
+.completed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .checkBoxContainer {
