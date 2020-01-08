@@ -1,0 +1,1378 @@
+{
+  "name": "Reckoning",
+  "levels": {
+      "1": {
+          "shared": [
+              {
+                  "objective": "Earn <b>15 emblem(s)</b> of <b>Bronze quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              }
+          ],
+          "survivor": [
+              {
+                  "objective": "Earn <b>5 Lightbringer emblem(s)</b> of <b>Bronze quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Cleanse <b>12 totem(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>2 trial(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Sabotage <b>10 hook(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Unhook <b>5 Survivor(s)</b>. Must unhook them safely.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Search <b>6 chest(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Repair a total of <b>4 generator(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Take <b>1 protection hit(s)</b> as <b>David King</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Stun the Killer <b>1 time(s)</b> as <b>Jane Romero</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Finish repairing <b>1 generator(s)</b> and escape the trial while using <b>Poised</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Unhook a Survivor safely or take a protection hit <b>4 time(s)</b> while using <b>We're Gonna Live Forever</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>2 emblems</b> of <b>Silver quality</b> or better as a Survivor.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Use <b>1</b> to avoid a basic attack by a nearby Killer <b>Dead Hard time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Close the hatch <b>1 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              }
+          ],
+          "killer": [
+              {
+                  "objective": "Earn <b>5 Devout emblem(s)</b> of <b>Bronze quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Kill <b>10 Survivor(s)</b> by any means.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Hook <b>20 Survivor(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 15000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Break <b>4 generator(s)</b> while using <b>Overcharge</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Hit a Survivor after emerging from phasing <b>1 time(s)</b> as <b>The Spirit</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Inflict <b>Madness I</b> on <b>2 different Survivor(s)</b> as <b>The Doctor</b>. ",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>2 emblems</b> of <b>Silver quality</b> or better as a Killer.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              }
+          ],
+          "unlocks": 1578412800
+      },
+      "2": {
+          "shared": [
+              {
+                  "objective": "Earn <b>15 emblem(s)</b> of <b>Silver quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              }
+          ],
+          "survivor": [
+              {
+                  "objective": "Earn <b>5 Evader emblem(s)</b> of <b>Silver quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Stun the Killer <b>4 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>4 trial(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Mark <b>5 objects</b> with maps.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Unhook <b>8 Survivor(s)</b>. Must unhook them safely.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>3 chase(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Repair a total of <b>10 generator(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>1 trial(s)</b> as <b>David King</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>1 trial(s)</b> while using the perk <b>No Mither</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Stun the Killer by exiting a locker with <b>Head On</b> <b>1 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Take <b>2 protection hit(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>1 trial(s)</b> as <b>Jane Romero</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              }
+          ],
+          "killer": [
+              {
+                  "objective": "Earn <b>5 Chaser emblem(s)</b> of <b>Silver quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Sacrifice <b>2 Survivor(s)</b> to the Entity during the Endgame Collapse.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Make the Survivors scream <b>10 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 25000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Break <b>4 pallet(s)</b> while using <b>Spirit Fury</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Inflict <b>Madness I</b> on <b>4 different Survivor(s)</b> as <b>The Doctor</b>. ",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Kill the Obsession <b>1 time(s)</b> while using <b>Rancor</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Chase <b>4 different Survivors</b> while using <b>Monitor & Abuse</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Hook <b>5 Survivor(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Interrupt and grab <b>1 Survivor(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 35000
+                      }
+                  ]
+              }
+          ],
+          "unlocks": 1580832000
+      },
+      "3": {
+          "shared": [
+              {
+                  "objective": "Earn <b>15 emblem(s)</b> of <b>Gold quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              }
+          ],
+          "survivor": [
+              {
+                  "objective": "Earn <b>5 Unbroken emblem(s)</b> of <b>Gold quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Repair a total of <b>12 generator(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Unhook <b>10 Survivor(s)</b>. Must unhook them safely.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Unlock the hatch with a key <b>2 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Fall from a great height while being chased <b>2 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>3 trial(s)</b> through the Exit Gate.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Get a Great result on <b>8 skill check(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Be chased by the Killer for a total of <b>30</b> second(s)</b> and escape the trial as <b>David King</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Stun the Killer <b>1 time(s)</b> and escape the trial as <b>Jane Romero</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Finish healing <b>1 health state(s)</b> of other Survivors while using <b>Solidarity</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>2 emblems</b> of <b>Iridescent quality</b> or better as a Survivor.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Take <b>1 protection hit(s)</b> and escape the trial as <b>David King</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Finish healing <b>1 health state(s)</b> of other Survivors and escape the trial as <b>Jane Romero</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              }
+          ],
+          "killer": [
+              {
+                  "objective": "Sacrifice <b>5 Survivor(s)</b> to the Entity during the Endgame Collapse.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Knock down <b>10 Survivor(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>5 Gatekeeper emblem(s)</b> of <b>Gold quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 30000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Inflict <b>Madness III</b> on <b>3 Survivor(s)</b> as <b>The Doctor</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Hit a Survivor after emerging from phasing <b>2 time(s)</b> as <b>The Spirit</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Knock down <b>5 Survivor(s)</b> while using <b>Unrelenting</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Finish the trial before <b>all generators</b> are repaired while using <b>5</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>2 emblems</b> of <b>Iridescent quality</b> or better as a Killer.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 50000
+                      }
+                  ]
+              }
+          ],
+          "unlocks": 1582041600
+      },
+      "4": {
+          "shared": [
+              {
+                  "objective": "Earn <b>15 emblem(s)</b> of <b>Iridescent quality</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>100000 Bloodpoints</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              }
+          ],
+          "survivor": [
+              {
+                  "objective": "Earn <b>5 Benevolent emblem(s)</b> of <b>Iridescent quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Repair a total of <b>12 generator(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Drop a pallet to stun the Killer <b>5 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Fall from a great height while being chased <b>4 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Take <b>10 protection hit(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>2 trial(s)</b> through the Hatch.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Take <b>2 protection hit(s)</b> as <b>David King</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Stun the Killer <b>3 time(s)</b> as <b>Jane Romero</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Use <b>2</b> to avoid a basic attack by a nearby Killer <b>Dead Hard time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Succeed at <b>5 consecutive skill checks</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Unhook <b>4 Survivor(s)</b>. Must unhook them safely.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Stun the Killer by exiting a locker with <b>Head On</b> <b>1 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Escape <b>2 chase(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Knock down <b>8 Survivor(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              }
+          ],
+          "killer": [
+              {
+                  "objective": "Close the hatch <b>2 time(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Kill <b>3 Survivor(s)</b> with your hands.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Earn <b>5 Malicious emblem(s)</b> of <b>Iridescent quality</b> or better.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Hit a Survivor with your weapon while that Survivor is Exposed <b>1 time(s)</b> while using <b>Hex: Haunted Ground</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Kill all Survivors in a trial <b>1 time(s)</b> by any means as <b>The Spirit</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Kill all Survivors in a trial <b>1 time(s)</b> by any means as <b>The Doctor</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 5
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 60000
+                      }
+                  ]
+              },
+              {
+                  "objective": "Chase Survivors for a total of <b>300 second(s)</b>.",
+                  "rewards": [
+                      {
+                          "type": "currency",
+                          "id": "riftfragments",
+                          "amount": 3
+                      },
+                      {
+                          "type": "currency",
+                          "id": "bloodpoints",
+                          "amount": 45000
+                      }
+                  ]
+              }
+          ],
+          "unlocks": 1583856000
+      }
+  },
+  "start": 1578412800,
+  "end": 1585753200
+}
