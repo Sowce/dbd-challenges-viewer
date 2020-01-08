@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dbd-challenges-viewer/static/css/main.bbce9128.chunk.css",
-    "main.js": "/dbd-challenges-viewer/static/js/main.951d95b9.chunk.js",
-    "main.js.map": "/dbd-challenges-viewer/static/js/main.951d95b9.chunk.js.map",
+    "main.js": "/dbd-challenges-viewer/static/js/main.5b1aba08.chunk.js",
+    "main.js.map": "/dbd-challenges-viewer/static/js/main.5b1aba08.chunk.js.map",
     "runtime-main.js": "/dbd-challenges-viewer/static/js/runtime-main.974fb675.js",
     "runtime-main.js.map": "/dbd-challenges-viewer/static/js/runtime-main.974fb675.js.map",
     "static/js/2.f6f7d10f.chunk.js": "/dbd-challenges-viewer/static/js/2.f6f7d10f.chunk.js",
     "static/js/2.f6f7d10f.chunk.js.map": "/dbd-challenges-viewer/static/js/2.f6f7d10f.chunk.js.map",
     "index.html": "/dbd-challenges-viewer/index.html",
-    "precache-manifest.df4f1df09d413468f8ec3256c4af0900.js": "/dbd-challenges-viewer/precache-manifest.df4f1df09d413468f8ec3256c4af0900.js",
+    "precache-manifest.81222352785a9cb449f8df3340f77634.js": "/dbd-challenges-viewer/precache-manifest.81222352785a9cb449f8df3340f77634.js",
     "service-worker.js": "/dbd-challenges-viewer/service-worker.js",
     "static/css/main.bbce9128.chunk.css.map": "/dbd-challenges-viewer/static/css/main.bbce9128.chunk.css.map",
     "static/js/2.f6f7d10f.chunk.js.LICENSE": "/dbd-challenges-viewer/static/js/2.f6f7d10f.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.974fb675.js",
     "static/js/2.f6f7d10f.chunk.js",
     "static/css/main.bbce9128.chunk.css",
-    "static/js/main.951d95b9.chunk.js"
+    "static/js/main.5b1aba08.chunk.js"
   ]
 }
