@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dbd-challenges-viewer/static/css/main.bbce9128.chunk.css",
+    "main.js": "/dbd-challenges-viewer/static/js/main.951d95b9.chunk.js",
+    "main.js.map": "/dbd-challenges-viewer/static/js/main.951d95b9.chunk.js.map",
+    "runtime-main.js": "/dbd-challenges-viewer/static/js/runtime-main.974fb675.js",
+    "runtime-main.js.map": "/dbd-challenges-viewer/static/js/runtime-main.974fb675.js.map",
+    "static/js/2.f6f7d10f.chunk.js": "/dbd-challenges-viewer/static/js/2.f6f7d10f.chunk.js",
+    "static/js/2.f6f7d10f.chunk.js.map": "/dbd-challenges-viewer/static/js/2.f6f7d10f.chunk.js.map",
+    "index.html": "/dbd-challenges-viewer/index.html",
+    "precache-manifest.df4f1df09d413468f8ec3256c4af0900.js": "/dbd-challenges-viewer/precache-manifest.df4f1df09d413468f8ec3256c4af0900.js",
+    "service-worker.js": "/dbd-challenges-viewer/service-worker.js",
+    "static/css/main.bbce9128.chunk.css.map": "/dbd-challenges-viewer/static/css/main.bbce9128.chunk.css.map",
+    "static/js/2.f6f7d10f.chunk.js.LICENSE": "/dbd-challenges-viewer/static/js/2.f6f7d10f.chunk.js.LICENSE",
+    "static/media/archives.png": "/dbd-challenges-viewer/static/media/archives.846cb884.png",
+    "static/media/App.css": "/dbd-challenges-viewer/static/media/survivor.8d966a80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.974fb675.js",
+    "static/js/2.f6f7d10f.chunk.js",
+    "static/css/main.bbce9128.chunk.css",
+    "static/js/main.951d95b9.chunk.js"
+  ]
+}
