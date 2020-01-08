@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2361222d43893a395d3fade847ebaaaa",
+    "revision": "29ceb8f1d32e6ee971525ee1566ddfd5",
     "url": "/dbd-challenges-viewer/index.html"
   },
   {
-    "revision": "fc3d992b4168d3658d2f",
-    "url": "/dbd-challenges-viewer/static/css/main.da3adaf3.chunk.css"
+    "revision": "9a0bf2dfb4477a687877",
+    "url": "/dbd-challenges-viewer/static/css/main.22dc281a.chunk.css"
   },
   {
-    "revision": "187bdd1c6d2941aca4f1",
-    "url": "/dbd-challenges-viewer/static/js/2.cfd44d8d.chunk.js"
+    "revision": "3b2db2dc86dbadf8bfdc",
+    "url": "/dbd-challenges-viewer/static/js/2.c34cc8b8.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/dbd-challenges-viewer/static/js/2.cfd44d8d.chunk.js.LICENSE"
+    "url": "/dbd-challenges-viewer/static/js/2.c34cc8b8.chunk.js.LICENSE"
   },
   {
-    "revision": "fc3d992b4168d3658d2f",
-    "url": "/dbd-challenges-viewer/static/js/main.1a30ae88.chunk.js"
+    "revision": "9a0bf2dfb4477a687877",
+    "url": "/dbd-challenges-viewer/static/js/main.afbe0ad1.chunk.js"
   },
   {
     "revision": "e6d424adb2b6e49bbc43",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8d966a800d04b3e00862d2a861982e84",
     "url": "/dbd-challenges-viewer/static/media/survivor.8d966a80.png"
+  },
+  {
+    "revision": "49121c1c87a00ffe6adb27cedce75849",
+    "url": "/dbd-challenges-viewer/static/media/you-did-it.49121c1c.jpg"
   }
 ]);
