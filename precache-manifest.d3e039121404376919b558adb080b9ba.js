@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29ceb8f1d32e6ee971525ee1566ddfd5",
+    "revision": "0963e64599cf61d112b9f1bdd11b8cf3",
     "url": "/dbd-challenges-viewer/index.html"
   },
   {
-    "revision": "9a0bf2dfb4477a687877",
-    "url": "/dbd-challenges-viewer/static/css/main.22dc281a.chunk.css"
+    "revision": "6ce749ccac8ce4e8cc4e",
+    "url": "/dbd-challenges-viewer/static/css/main.5220acc0.chunk.css"
   },
   {
     "revision": "3b2db2dc86dbadf8bfdc",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dbd-challenges-viewer/static/js/2.c34cc8b8.chunk.js.LICENSE"
   },
   {
-    "revision": "9a0bf2dfb4477a687877",
+    "revision": "6ce749ccac8ce4e8cc4e",
     "url": "/dbd-challenges-viewer/static/js/main.afbe0ad1.chunk.js"
   },
   {
