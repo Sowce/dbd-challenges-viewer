@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dbd-challenges-viewer/precache-manifest.81222352785a9cb449f8df3340f77634.js"
+  "/dbd-challenges-viewer/precache-manifest.11fd9f88b9258b16b8c5b0671deb7b24.js"
 );
 
 self.addEventListener('message', (event) => {
