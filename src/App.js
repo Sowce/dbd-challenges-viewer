@@ -2,7 +2,7 @@ import React from "react";
 import challenges from "./challenges.json";
 import FlipMove from "react-flip-move";
 import archivesLogo from "./images/archives.png";
-import youDidIt from "./images/you-did-it.jpg";
+import youDidIt from "./images/you-did-it.webp";
 import "./App.css";
 
 import HideCompletedCheckbox from "./components/HideCompletedCheckbox.js";
@@ -129,13 +129,11 @@ class App extends React.Component {
             checked={this.state.hideCompleted}
             onChange={this.onHideCompleted.bind(this)}
           />
-          <SearchBox
-            onChange={this.onSearch.bind(this)}
-          />
+          <SearchBox onChange={this.onSearch.bind(this)} />
         </div>
         {this.isFullyCompleted() && (
           <div className="completed">
-            <img src={youDidIt} alt="" />
+            <img src={youDidIt} loading="lazy" alt="" />
           </div>
         )}
         {!this.isFullyCompleted() && (
