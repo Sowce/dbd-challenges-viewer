@@ -26,6 +26,10 @@ class HideCompletedCheckbox extends React.Component {
 
     return (
       <div className={containerClassName} onClick={this.onClick.bind(this)}>
+        <div className="tooltip">
+        <div className="arrow-up"></div>
+          <div>Hide Completed Challenges</div>
+        </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
