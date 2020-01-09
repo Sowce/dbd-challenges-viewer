@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea62ae7c779b7bdc4059970639a48158",
+    "revision": "b96a5138d733b4278a3db6ee081a0d9b",
     "url": "/dbd-challenges-viewer/index.html"
   },
   {
-    "revision": "c5676858c6158ab11678",
+    "revision": "0282a5ca11747af6cb5e",
     "url": "/dbd-challenges-viewer/static/css/main.e34f40e9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dbd-challenges-viewer/static/js/2.b6ea7229.chunk.js.LICENSE"
   },
   {
-    "revision": "c5676858c6158ab11678",
-    "url": "/dbd-challenges-viewer/static/js/main.0126a03f.chunk.js"
+    "revision": "0282a5ca11747af6cb5e",
+    "url": "/dbd-challenges-viewer/static/js/main.4890ad18.chunk.js"
   },
   {
     "revision": "e6d424adb2b6e49bbc43",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dbd-challenges-viewer/static/media/survivor.8d966a80.png"
   },
   {
-    "revision": "49121c1c87a00ffe6adb27cedce75849",
-    "url": "/dbd-challenges-viewer/static/media/you-did-it.49121c1c.jpg"
+    "revision": "a6323dd3c89bc34d4b45a86edcb101bd",
+    "url": "/dbd-challenges-viewer/static/media/you-did-it.a6323dd3.webp"
   }
 ]);
