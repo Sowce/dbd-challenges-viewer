@@ -1,0 +1,27 @@
+.searchContainer,
+.searchContainer * {
+  transition: all 250ms ease-in-out;
+}
+
+.searchContainer {
+  display: flex;
+  height: calc(100% - 20px);
+  align-items: center;
+  padding: 10px;
+  background-color: #181a1b;
+  border: none;
+  color: #fff;
+  cursor: text;
+}
+
+.searchContainer input {
+  width: 12em;
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.searchContainer input:focus {
+  width: 24em;
+}

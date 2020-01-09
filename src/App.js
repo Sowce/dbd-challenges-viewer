@@ -5,6 +5,9 @@ import archivesLogo from "./images/archives.png";
 import youDidIt from "./images/you-did-it.jpg";
 import "./App.css";
 
+import HideCompletedCheckbox from "./components/HideCompletedCheckbox.js";
+import SearchBox from "./components/SearchBox.js";
+
 const getLocalStorage = item => window.localStorage.getItem(item);
 const setLocalStorage = (item, value) =>
   window.localStorage.setItem(
@@ -26,7 +29,10 @@ class App extends React.Component {
     this.state = { searchText: "", challengeState, hideCompleted };
   }
 
-  onChallengeClick(id) {
+  onChallengeClick(id, event) {
+    event.preventDefault();
+    event.stopPropagation();
+
     this.setState(
       {
         challengeState: {
@@ -49,10 +55,10 @@ class App extends React.Component {
     );
   }
 
-  onHideCompleted(event) {
+  onHideCompleted(newValue) {
     this.setState(
-      { hideCompleted: event.target.checked },
-      setLocalStorage("hideCompleted", event.target.checked)
+      { hideCompleted: newValue },
+      setLocalStorage("hideCompleted", newValue)
     );
   }
 
@@ -118,19 +124,12 @@ class App extends React.Component {
           <img className="appLogo" src={archivesLogo} alt="" />
           <div className="appTitle">DBD Challenges</div>
           <div className="spacer"></div>
-          <div className="checkBoxContainer">
-            <input
-              type="checkbox"
-              name="hideCompleted"
-              checked={this.state.hideCompleted}
-              onChange={this.onHideCompleted.bind(this)}
-              id="hideCompleted"
-            />
-            <label htmlFor="hideCompleted">Hide Completed</label>
-          </div>
-          <input
-            type="text"
-            placeholder="Search..."
+          <HideCompletedCheckbox
+            fill="#fff"
+            checked={this.state.hideCompleted}
+            onChange={this.onHideCompleted.bind(this)}
+          />
+          <SearchBox
             onChange={this.onSearch.bind(this)}
           />
         </div>
@@ -149,7 +148,7 @@ class App extends React.Component {
               return (
                 <div
                   className={cardClassName}
-                  onClick={() => this.onChallengeClick(challenge.id)}
+                  onClick={e => this.onChallengeClick(challenge.id, e)}
                   key={challenge.id}
                 >
                   <div className="rewardsCol">
