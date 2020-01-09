@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/dbd-challenges-viewer/static/css/main.78175d32.chunk.css",
-    "main.js": "/dbd-challenges-viewer/static/js/main.afbe0ad1.chunk.js",
-    "main.js.map": "/dbd-challenges-viewer/static/js/main.afbe0ad1.chunk.js.map",
+    "main.css": "/dbd-challenges-viewer/static/css/main.e8372fca.chunk.css",
+    "main.js": "/dbd-challenges-viewer/static/js/main.17b4930b.chunk.js",
+    "main.js.map": "/dbd-challenges-viewer/static/js/main.17b4930b.chunk.js.map",
     "runtime-main.js": "/dbd-challenges-viewer/static/js/runtime-main.974fb675.js",
     "runtime-main.js.map": "/dbd-challenges-viewer/static/js/runtime-main.974fb675.js.map",
-    "static/js/2.c34cc8b8.chunk.js": "/dbd-challenges-viewer/static/js/2.c34cc8b8.chunk.js",
-    "static/js/2.c34cc8b8.chunk.js.map": "/dbd-challenges-viewer/static/js/2.c34cc8b8.chunk.js.map",
+    "static/js/2.b6ea7229.chunk.js": "/dbd-challenges-viewer/static/js/2.b6ea7229.chunk.js",
+    "static/js/2.b6ea7229.chunk.js.map": "/dbd-challenges-viewer/static/js/2.b6ea7229.chunk.js.map",
     "index.html": "/dbd-challenges-viewer/index.html",
-    "precache-manifest.cbd4ab504459cb241b5058acfc3daadc.js": "/dbd-challenges-viewer/precache-manifest.cbd4ab504459cb241b5058acfc3daadc.js",
+    "precache-manifest.fbf81321a8712dbcb5b8dcfbddafac7a.js": "/dbd-challenges-viewer/precache-manifest.fbf81321a8712dbcb5b8dcfbddafac7a.js",
     "service-worker.js": "/dbd-challenges-viewer/service-worker.js",
-    "static/css/main.78175d32.chunk.css.map": "/dbd-challenges-viewer/static/css/main.78175d32.chunk.css.map",
-    "static/js/2.c34cc8b8.chunk.js.LICENSE": "/dbd-challenges-viewer/static/js/2.c34cc8b8.chunk.js.LICENSE",
+    "static/css/main.e8372fca.chunk.css.map": "/dbd-challenges-viewer/static/css/main.e8372fca.chunk.css.map",
+    "static/js/2.b6ea7229.chunk.js.LICENSE": "/dbd-challenges-viewer/static/js/2.b6ea7229.chunk.js.LICENSE",
     "static/media/archives.png": "/dbd-challenges-viewer/static/media/archives.846cb884.png",
     "static/media/App.css": "/dbd-challenges-viewer/static/media/survivor.8d966a80.png",
     "static/media/you-did-it.jpg": "/dbd-challenges-viewer/static/media/you-did-it.49121c1c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.974fb675.js",
-    "static/js/2.c34cc8b8.chunk.js",
-    "static/css/main.78175d32.chunk.css",
-    "static/js/main.afbe0ad1.chunk.js"
+    "static/js/2.b6ea7229.chunk.js",
+    "static/css/main.e8372fca.chunk.css",
+    "static/js/main.17b4930b.chunk.js"
   ]
 }
