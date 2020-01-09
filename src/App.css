@@ -6,6 +6,7 @@ body {
 .App {
   padding-top: 3em;
   height: calc(100vh - 3em);
+  max-width: 100vw;
 }
 
 .content {
@@ -116,12 +117,20 @@ body {
   height: 100%;
 }
 
+.completed > img {
+  max-height: calc(100vh - 3em);
+}
+
+@media screen and (orientation: portrait) {
+  .completed > img {
+    max-height: none;
+    max-width: 100vw;
+  }
+}
+
 .checkBoxContainer {
   display: flex;
   align-items: center;
-}
-
-.checkBoxContainer > input {
 }
 
 .checkBoxContainer > label {
